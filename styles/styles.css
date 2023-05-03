@@ -1,0 +1,63 @@
+/**********************Custom Properties****************/
+:root{
+    --first-color:rgba(0, 129, 201,1);
+    --first-alpha-color:rgba(0, 129, 201, 0.75);
+    --second-color:rgb(91, 192, 248);
+    --second-alpha-color:rgba(91, 192, 248, 0.75);
+    --third-color:rgba(134, 229, 255, 1);
+    --third-alpha-color:rgba(134, 229, 255, 0.75);
+    --fourth-color:rgb(255, 201, 60);
+    --fourth-alpha-color:rgba(255, 201, 60, 0.75);
+    
+}
+/**********************Reset Styles****************/
+body {
+    font-size: 1.5rem;
+}
+/********************Boostrap Styles*********************/
+.bg-dark{
+    background-color: var(--first-color) !important ;
+    color: white !important;
+}
+/********************My Styles***************************/
+.navbar a {
+color: white;
+}
+
+.bg-img-section-1 {
+    background-image: url(/img/hero-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contrast-color{
+    color: var( --first-color);
+    opacity: 1;
+}
+
+/****************Media Query**********************/
+
+/*Small devices (landsscapes and phones, 576px and Up)*/ 
+@media (min-width: 576px) {
+
+}
+/*Midium devices (tablets, 768px and Up*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992 and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*X-Large devices (Large desktop, 1200px and Up) */
+
+@media (min-width: 1200px) {
+
+}
+
+/*XX-Largue devices (Larger Desktop, 1400px and Up)*/
+@media (min-width: 1400px) {
+
+}
